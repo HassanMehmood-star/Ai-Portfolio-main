@@ -71,7 +71,7 @@ export default function AboutSection() {
                 <GraduationCap size={20} />
               </div>
               <div className={styles.timelineContent}>
-                <h4>BS Computer Science</h4>
+                <h4>Bachelor's  in Computer Science</h4>
                 <p>FAST NUCES</p>
                 <span className={styles.timelinePeriod}>2021 - 2025</span>
               </div>
@@ -82,8 +82,8 @@ export default function AboutSection() {
                 <Award size={20} />
               </div>
               <div className={styles.timelineContent}>
-                <h4>Artifical Intelligence</h4>
-                <p>HackerRank</p>
+                <h4>MERN Stack Development</h4>
+                <p>Udemy</p>
                 <span className={styles.timelinePeriod}>2022</span>
               </div>
             </div>
@@ -93,22 +93,13 @@ export default function AboutSection() {
                 <Code size={20} />
               </div>
               <div className={styles.timelineContent}>
-                <h4>Data Science</h4>
-                <p>CodSoft</p>
+                <h4>Internship in Administrative Support</h4>
+                <p>Fall 2022, FAST NUCES, Chiniot Faisalabad Campus</p>
                 <span className={styles.timelinePeriod}>2023</span>
               </div>
             </div>
 
-            <div className={styles.timelineItem}>
-              <div className={styles.timelineIcon}>
-                <Briefcase size={20} />
-              </div>
-              <div className={styles.timelineContent}>
-                <h4>Machine Learning</h4>
-                <p>Prodigy InfoTech</p>
-                <span className={styles.timelinePeriod}>2024</span>
-              </div>
-            </div>
+            
           </motion.div>
         </div>
 
@@ -121,12 +112,12 @@ export default function AboutSection() {
         >
           <AIBrainAnimation />
           <div className={styles.funFact}>
-            <h3>Did you know?</h3>
-            <p>
-              GPT-4 has approximately 1.76 trillion parameters, making it one of the largest language models ever
-              created!
-            </p>
-          </div>
+  <h3>Did you know?</h3>
+  <p>
+    React, part of the MERN stack, has over 150,000 stars on GitHub, making it one of the most popular front-end frameworks for building dynamic user interfaces!
+  </p>
+</div>
+
         </motion.div>
       </div>
     </section>
