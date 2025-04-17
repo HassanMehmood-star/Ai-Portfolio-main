@@ -27,21 +27,17 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className={styles.bioTitle}>My Journey in AI & ML</h3>
-            <p>
-              I'm an AI/ML Engineer with a passion for developing cutting-edge solutions using artificial intelligence
-              and machine learning. My expertise spans across various domains including computer vision, natural
-              language processing, and generative AI.
-            </p>
-            <p>
-              With a strong foundation in both theoretical concepts and practical implementation, I strive to bridge the
-              gap between research and real-world applications. My goal is to create AI systems that are not only
-              technically robust but also ethically sound and user-friendly.
-            </p>
-            <p>
-              When I'm not training models or optimizing algorithms, you can find me exploring the latest research
-              papers, contributing to open-source projects, or mentoring aspiring data scientists and ML engineers.
-            </p>
+          <h3 className={styles.bioTitle}>My Journey in Cloud Computing, AI, and Full-Stack Development</h3>
+<p className={styles.bioText}>
+  I'm a Cloud Computing enthusiast and Full-Stack Developer, currently studying Computer Science at FAST National University. My expertise spans cloud platforms like AWS and Google Cloud, AI/ML development, and MERN stack applications.
+</p>
+<p className={styles.bioText}>
+  With hands-on experience in building scalable, cloud-native applications and integrating AI models, I focus on creating innovative solutions that bridge academia and industry. I'm passionate about combining cloud infrastructure with AI technologies to develop efficient, user-centric solutions.
+</p>
+<p className={styles.bioText}>
+  Outside of coding, I enjoy exploring emerging cloud technologies, contributing to open-source projects, and mentoring future developers and data scientists.
+</p>
+
 
             <div className={styles.aiQuote}>
               <Brain className={styles.quoteIcon} />
