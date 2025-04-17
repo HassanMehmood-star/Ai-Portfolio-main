@@ -27,26 +27,34 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-          <h3 className={styles.bioTitle}>My Journey in Cloud Computing, AI, and Full-Stack Development</h3>
+<h3 className={styles.bioTitle}>My Journey in Cloud Computing, AI/ML MERN-Stack Development</h3>
 <p className={styles.bioText}>
-  I'm a Cloud Computing enthusiast and Full-Stack Developer, currently studying Computer Science at FAST National University. My expertise spans cloud platforms like AWS and Google Cloud, AI/ML development, and MERN stack applications.
+  My journey in the field of Cloud Computing, AI, and Full-Stack Development has been both exciting and rewarding. As a Computer Science student at FAST National University, I have developed proficiency in technologies such as <strong>AWS</strong>, <strong>Google Cloud Platform (GCP)</strong>, <strong>MERN stack</strong> (MongoDB, Express.js, React.js, Node.js), and AI/ML tools. Throughout my academic projects, I have gained hands-on experience with <strong>AI model development</strong>, <strong>cloud architecture</strong>, and <strong>full-stack development</strong>, which has equipped me with the ability to build scalable, data-driven applications.
 </p>
 <p className={styles.bioText}>
-  With hands-on experience in building scalable, cloud-native applications and integrating AI models, I focus on creating innovative solutions that bridge academia and industry. I'm passionate about combining cloud infrastructure with AI technologies to develop efficient, user-centric solutions.
+  For my final year project, I am focused on developing the <strong>AI-Interno Platform</strong> that bridges the gap between industry and academia. This project aims to utilize the <strong>MERN stack</strong> to build a platform that integrates <strong>AI/ML models</strong>, helping students and industry professionals collaborate through remote internships, AI-driven recommendations, and real-time feedback.
 </p>
 <p className={styles.bioText}>
-  Outside of coding, I enjoy exploring emerging cloud technologies, contributing to open-source projects, and mentoring future developers and data scientists.
+  In addition to my academic work, I have served as a <strong>Teaching Assistant</strong> in multiple courses, including <strong>Programming Fundamentals</strong>, <strong>Database Systems</strong>, and <strong>Object-Oriented Programming</strong>. These experiences have honed my communication skills and deepened my understanding of algorithms, system design, and problem-solving. I enjoy mentoring fellow students, assisting them with assignments, quizzes, and exam preparation, and contributing to their learning journey.
+</p>
+<p className={styles.bioText}>
+  As I progress in my career, I am eager to apply my knowledge in <strong>cloud computing</strong>, <strong>AI/ML</strong>, and <strong>MERN-stack development</strong> to solve real-world challenges. If you’re looking for a dedicated developer passionate about innovation and learning, I would love to connect and explore new opportunities to make a meaningful impact.
+</p>
+<p className={styles.bioText}>
+  Outside of coding, I enjoy exploring emerging cloud technologies, mentoring future developers, and continuously learning to stay ahead of the curve in the ever-evolving tech landscape.
 </p>
 
 
-            <div className={styles.aiQuote}>
+
+
+            {/* <div className={styles.aiQuote}>
               <Brain className={styles.quoteIcon} />
               <blockquote>
                 "The development of full artificial intelligence could spell the end of the human race... or it could be
                 the best thing that ever happened to us."
               </blockquote>
               <cite>— Stephen Hawking</cite>
-            </div>
+            </div> */}
           </motion.div>
 
           <motion.div
