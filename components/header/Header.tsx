@@ -38,7 +38,7 @@ export default function Header() {
             transition={{ duration: 0.5 }}
             className={styles.logoText}
           >
-            MAS
+            HM
           </motion.span>
         </Link>
 

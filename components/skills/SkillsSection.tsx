@@ -4,86 +4,96 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import styles from "./SkillsSection.module.css"
 import SkillCard from "./SkillCard"
-import { Brain, Code, Database, Server, Cpu, Network } from "lucide-react"
+import { Brain, Server, Cpu, Network  } from "lucide-react"
 import SkillsGraph from "./SkillsGraph"
+import { BarChart, Database } from 'lucide-react';
+import { Code } from 'lucide-react';
 
 const skillCategories = [
   {
     id: "programming",
-    title: "Programming",
+    title: "General Programming",
     icon: <Code size={24} />,
     skills: [
-      { name: "Python", level: 95 },
-      { name: "TensorFlow", level: 90 },
-      { name: "PyTorch", level: 85 },
-      { name: "SQL", level: 80 },
-      { name: "Bash", level: 75 },
-      { name: "JavaScript", level: 70 },
+      { name: "Python", level: 85 },
+      { name: "C++", level: 90 },
+      { name: "Javascript", level: 85 },
+      
+      // { name: "Bash", level: 75 },
+      { name: "Git/GitBash", level: 70 },
     ],
   },
   {
     id: "ml",
-    title: "Machine Learning & Deep Learning",
+    title: "General ML & AI",
     icon: <Brain size={24} />,
     skills: [
-      { name: "CNNs", level: 90 },
-      { name: "RNNs", level: 85 },
-      { name: "Transformers", level: 90 },
-      { name: "AutoML", level: 80 },
-      { name: "Reinforcement Learning", level: 75 },
-      { name: "GANs", level: 85 },
+      { name: "Llama", level: 70 },
+      { name: "Python", level: 85 },
+      { name: "Transformers", level: 80 },
+      { name: "Natural Language Processing (NLP)", level: 80 }
+  
     ],
   },
   {
     id: "mlops",
-    title: "MLOps & DevOps",
+    title: "Cloud Computing",
     icon: <Server size={24} />,
     skills: [
       { name: "Docker", level: 85 },
       { name: "Kubernetes", level: 80 },
       { name: "AWS", level: 85 },
       { name: "CI/CD Pipelines", level: 80 },
-      { name: "Model Monitoring", level: 75 },
-      { name: "MLflow", level: 85 },
+      { name: "Google Cloud Platform(GCP)", level: 75 },
+      { name: "Hadoop File System", level: 75 },
+      { name: "Cloud Architecture", level: 75 },
     ],
   },
   {
     id: "genai",
-    title: "Generative AI & LLMs",
-    icon: <Cpu size={24} />,
+    title: "Data Science & Machine Learning",
+    icon :<BarChart size={24} /> ,
     skills: [
-      { name: "GPT-4", level: 90 },
-      { name: "BERT", level: 85 },
-      { name: "Stable Diffusion", level: 80 },
-      { name: "OpenAI Whisper", level: 75 },
-      { name: "LLM Fine-tuning", level: 85 },
-      { name: "Prompt Engineering", level: 95 },
+      { name: "Data Analysis", level: 90 },
+      { name: "Data Visualization", level: 85 },
+      { name: "Model Training and Evaluation", level: 80 },
+      { name: "Pandas", level: 75 },
+      { name: "Numpy", level: 85 },
+      { name: "Scikit-Learn", level: 95 },
+      { name: "TensorFlow", level: 95 },
+      { name: "PyTorch", level: 90 },
+      { name: "Keras", level: 85 },
+      { name: "Matplotlib", level: 80 },
+      { name: "Seaborn", level: 75 },
+      { name: "OpenCV", level: 70 },
+      {name: "Power Bi", level: 80},
     ],
   },
   {
     id: "data",
-    title: "Data Engineering & Analytics",
+    title: "DataBase",
     icon: <Database size={24} />,
     skills: [
-      { name: "Pandas", level: 90 },
-      { name: "Spark", level: 80 },
-      { name: "Hadoop", level: 75 },
-      { name: "Data Visualization", level: 85 },
-      { name: "ETL Pipelines", level: 80 },
-      { name: "Feature Engineering", level: 90 },
+      { name: "MongoDB", level: 90 },
+      { name: "Sql", level: 80 },
+      { name: "MySql", level: 75 },
+      { name: "Firebase", level: 85 },
+      { name: "Normalization", level: 80 },
+     
     ],
   },
   {
     id: "research",
-    title: "Research & Innovation",
-    icon: <Network size={24} />,
+    title: "Web Development",
+    icon :  <Code size={24} />,
+
     skills: [
-      { name: "Paper Implementation", level: 85 },
-      { name: "Research Methodology", level: 80 },
-      { name: "Experimental Design", level: 85 },
-      { name: "Literature Review", level: 90 },
-      { name: "Hypothesis Testing", level: 80 },
-      { name: "Technical Writing", level: 85 },
+      { name: "JavaScript", level: 85 },
+      { name: "TypeScript", level: 80 },
+      { name: "ReactJs", level: 85 },
+      { name: "NextJs", level: 90 },
+      { name: "WebScraping", level: 80 },
+      { name: "FAST API", level: 85 },
     ],
   },
 ]
