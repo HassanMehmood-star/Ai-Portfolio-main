@@ -10,19 +10,19 @@ import AIProjectShowcase from "./AIProjectShowcase"
 const projects = [
   {
     id: 1,
-    title: "Fabric Defect Detection using YOLOv5",
-    description: "A computer vision system that detects defects in textile fabrics using YOLOv5. The model identifies cuts, holes, thread errors, and stains in real-time, providing visual feedback for quality control.",
-    image: "/fabric.webp",
-    tags: ["Computer Vision", "YOLOv5", "PyTorch", "OpenCV"],
-    repoUrl: "https://github.com/shaiiikh/Fabric-Defect-Detection-using-YOLOv5",
+    title: "AI-Interno Platform (Private Repo)",
+    description: "AI-Interno is an AI-powered virtual internship platform designed to bridge the gap between academia and industry. It offers students personalized learning experiences and practical exposure to real-world tasks, enhancing their skills through AI-driven insights and feedback. The platform aims to streamline the internship process, providing both academic institutions and businesses with efficient tools for talent development and recruitment",
+    image: "/AI-interno.jpeg",
+    tags: ["MERN", "ReactJS", "AI", "MongoDB","APIs" , "TailwindCSS"],
+    repoUrl: "https://github.com/HassanMehmood-star/FYP-AI-interno",
   },
   {
     id: 2,
-    title: "Custom Transformer LLM for Text Summarization",
-    description: "A custom-built transformer model for text summarization, demonstrating the application of advanced NLP techniques for content compression while maintaining context and meaning.",
+    title: "Custom Transformer-Based LLM",
+    description: "Designed and implemented a custom Transformer-based LLM from scratch for text summarization, leveraging advanced NLP techniques for extractive and abstractive summarization.",
     image: "/custom.webp",
-    tags: ["NLP", "Transformers", "HuggingFace", "ONNX"],
-    repoUrl: "https://github.com/shaiiikh/Custom-Transformer-Based-LLM-for-Text-Summarization",
+    tags: ["NLP", "Transformers", "HuggingFace", "LLama" , "Python"],
+    repoUrl: "https://github.com/HassanMehmood-star/Designing-a-Custom-Transformer-Based-LLM-for-Text-Summarization",
   },
   {
     id: 3,
